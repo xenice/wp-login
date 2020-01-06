@@ -1,0 +1,19 @@
+{
+    "name": "xenice/wp-login",
+    "description": "A social login package for the wordpress theme framework xenice",
+    "type": "library",
+    "authors": [
+        {
+            "name": "xenice",
+            "email": "xenice@qq.com"
+        }
+    ],
+	"require": {
+		"php": ">=7.0"
+	},
+	"autoload": {
+		"psr-4": {
+		  "xenice\\login\\":"src/"
+		}
+	}
+}
